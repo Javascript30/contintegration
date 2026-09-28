@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Works on my machine!!, Helo World");
+  res.send("Works on my machine!!");
 });
 
 module.exports = app;

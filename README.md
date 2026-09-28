@@ -11,6 +11,11 @@ npm test
 npx prettier . --check
 ```
 
+```bash
+    // Adding prettier and ensuring evryone uses the same one
+    npm install -save-dev --save-exact prettier
+```
+
 Format files with Prettier:
 
 ```bash

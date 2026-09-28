@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('Works on my machine!!, Helo World');
+app.get("/", (req, res) => {
+  res.send("Works on my machine!!, Helo World");
 });
 
 module.exports = app;

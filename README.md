@@ -1,4 +1,4 @@
- # Continuous Integration & Testing
+# Continuous Integration & Testing
 
 This project is a hands-on space for learning CI/CD, automated tests, and code formatting. As the project evolves, use the scripts in `package.json` and CI configuration as the source of truth for exact commands.
 

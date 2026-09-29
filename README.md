@@ -30,6 +30,15 @@ npx prettier . --write
 Tested `lint` with unused var to see if working
 Added custom rules, like no-console log --- also how to ignore them on `server.js` by disabling it with a comment
 
+#### Docker
+
+Adding docker to the mix; build and run in scrips
+
+```bash
+    docker build -t continuousint .
+    docker run -p 3000:3000 --init --rm continuousint
+```
+
 If `package.json` provides dedicated scripts, use those (for example, `npm run test` or `npm run format`).
 
 ## What I'm learning

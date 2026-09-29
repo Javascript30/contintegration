@@ -28,6 +28,7 @@ npx prettier . --write
 ```
 
 Tested `lint` with unused var to see if working
+Added custom rules, like no-console log --- also how to ignore them on `server.js` by disabling it with a comment
 
 If `package.json` provides dedicated scripts, use those (for example, `npm run test` or `npm run format`).
 

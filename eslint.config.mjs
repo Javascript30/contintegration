@@ -9,7 +9,8 @@ export default defineConfig([
     extends: ['js/recommended'],
     languageOptions: { globals: globals.node },
     rules: {
-      "no-console": "warn"
+      "no-console": "warn",
+      "prefer-const": "error"
     },
   },
   { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },

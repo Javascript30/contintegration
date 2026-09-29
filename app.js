@@ -5,11 +5,11 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
 
-  // const msg = 'Works on my machine!!';
+  const msg = 'Works on my machine!!';
 
-  console.log('Did someone say works on my machine?');
+  // console.log('Did someone say works on my machine?');
 
-  res.send('Works on my machine!!');
+  res.send(msg);
 });
 
 module.exports = app;

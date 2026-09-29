@@ -12,7 +12,7 @@ npx prettier . --check
 ```
 
 ```bash
-    // Adding prettier and ensuring evryone uses the same one
+    # // Adding prettier and ensuring evryone uses the same one
     npm install -save-dev --save-exact prettier
 ```
 
@@ -21,6 +21,13 @@ Format files with Prettier:
 ```bash
 npx prettier . --write
 ```
+
+```bash
+    # //Adding ESLint
+    npm init @eslint/config@latest
+```
+
+Tested `lint` with unused var to see if working
 
 If `package.json` provides dedicated scripts, use those (for example, `npm run test` or `npm run format`).
 

@@ -1,0 +1,40 @@
+
+# Version control
+.git
+.gitignore
+
+.github/
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+__pycache__/
+*.py[cod]
+dist/
+build/
+target/
+.next/
+
+# Tests and coverage
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+.prettierignore
+.prettierrc
+eslint.config.mjs
